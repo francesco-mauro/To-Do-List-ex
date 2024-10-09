@@ -12,6 +12,7 @@ function addTask() {
     if (taskText === '') {
         alert('Per favore, inserisci un\'attività.');
         return;
+
     }
 
     let li = document.createElement('li');
