@@ -56,13 +56,21 @@ li {
     margin-top: 5px;
 }
 
-.delete-btn {
+.delete-btn, .edit-btn {
     position: absolute;
-    right: 10px;
     top: 10px;
     background: red;
     color: #fff;
     border: none;
     padding: 5px;
     cursor: pointer;
+}
+
+.delete-btn {
+    right: 10px;
+}
+
+.edit-btn {
+    right: 70px;
+    background: green;
 }
